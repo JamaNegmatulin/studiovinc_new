@@ -1,0 +1,356 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.nav {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.digital-img img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+
+.nav-ul a {
+    display: inline-block;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+}
+
+.nav-ul a:hover {
+    color: #FF0000;
+    transition: all 1s;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 11px;
+}
+
+.logo a {
+    display: block;
+    font-family: Crimson Text;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-weight: bold;
+    line-height: 68px;
+}
+
+.btn-navigator {
+    display: inline-block;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 19px;
+    outline: none;
+    transition: all 1s;
+}
+
+.btn-navigator:hover {
+    color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.container-digital {
+    padding-top: 75px;
+    padding-bottom: 84px;
+    display: flex;
+}
+
+.digital-text h1 {
+    max-width: 575px;
+    width: 100%;
+    font-family: "Ruberoid";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 70px;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+
+.digital-text span {
+    background: #FF0000;
+    border-radius: 10px;
+    padding: 0 6px 6px 6px;
+}
+
+.digital-text p {
+    max-width: 384px;
+    width: 100%;
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 66px;
+}
+
+.digital-text a {
+    display: inline-block;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 21px 58px;
+    transition: all 1s;
+}
+
+.digital-text a:hover {
+    color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+/* main */
+
+.container-uslugi {
+    padding-top: 53px;
+    padding-bottom: 92px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 73px;
+}
+
+.h3 {
+    font-family: Ruberoid;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+
+.card::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -2px;
+    bottom: -2px;
+    right: -2px;
+    left: -2px;
+    border-radius: 25px;
+    z-index: -1;
+    background: linear-gradient(147.76deg, rgba(255, 0, 0, 0.9) 3.96%, rgba(255, 0, 0, 0) 32.18%),
+        linear-gradient(323.16deg, #FF7A00 0%, rgba(255, 122, 0, 0) 45.67%, rgba(255, 122, 0, 0.0975145) 45.67%);
+}
+
+.card {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background: #242121;
+    border-radius: 25px;
+    padding: 35px 30px;
+    min-height: 375px;
+}
+
+.card h4 {
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.card a {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #F70000;
+    border-radius: 15px;
+    padding: 14px 64px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+}
+
+.card a:hover {
+    color: #FF0000;
+    border: 1px solid #FF7A00;
+    transition: all 1s;
+}
+
+.fiverr {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fiverr::after {
+    content: "";
+    display: block;
+    max-width: 702px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #FF0000, #FF7A00);
+    margin-top: 60px;
+    margin-bottom: 36px;
+}
+
+.fiverr-text {
+    max-width: 890px;
+    width: 100%;
+}
+
+.fiverr-photo {
+    max-width: 375px;
+    width: 100%;
+}
+
+.fiverr-text h4 {
+    font-family: Ruberoid;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFF;
+    margin-bottom: 26px;
+}
+
+.fiverr-text p,
+.fiverr-photo h5 {
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+}
+
+.fiverr-text p {
+    margin-bottom: 30px;
+}
+
+.fiverr-photo h5 {
+    margin-bottom: 50px;
+    padding: 15px 30px;
+}
+
+.img_fiverr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.kwork_fiverr {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.h5 {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    padding: 5px 20px;
+    background: #242121;
+    border-radius: 25px;
+}
+
+.h5:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -2px;
+    bottom: -2px;
+    right: -1px;
+    left: -1px;
+    border-radius: 25px;
+    z-index: -1;
+    background: linear-gradient(147.76deg, #FF0000 6.84%, rgba(255, 0, 0, 0) 35.05%),
+        linear-gradient(325.82deg, #FF7A00 7.22%, rgba(255, 122, 0, 0.0975145) 42.27%, rgba(255, 122, 0, 0) 42.27%);
+}
+
+/* portfolio */
+
+.container_port {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.img img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.img img:hover {
+    transform: scale(1.2);
+}
